@@ -1,0 +1,30 @@
+# Git Auto-Push Script Configuration Template
+# Copy this file to .env and fill in your actual credentials
+
+# REQUIRED: GitHub credentials
+# Your GitHub username
+DEFAULT_GITHUB_USERNAME=your_github_username
+
+# Your GitHub Personal Access Token
+# Create one at: https://github.com/settings/tokens
+# Required scopes: repo (for private/public repositories)
+DEFAULT_GITHUB_TOKEN=ghp_your_github_personal_access_token_here
+
+# OPTIONAL: Override credentials for specific runs
+# GITHUB_USERNAME=override_username
+# GITHUB_TOKEN=override_token
+
+# OPTIONAL: Git configuration
+# DEFAULT_COMMIT_AUTHOR=Your Name
+# DEFAULT_COMMIT_EMAIL=your.email@example.com
+
+# OPTIONAL: Repository settings
+# DEFAULT_GITHUB_ORG=your_organization  # Use instead of username for org repos
+# DEFAULT_BRANCH=main  # Default: main (fallback: master)
+
+# OPTIONAL: File exclusions during copy (comma-separated)
+# COPY_EXCLUDES=node_modules,*.log,.DS_Store,dist,build
+
+# OPTIONAL: Custom remote names
+# ORIGIN_REMOTE_NAME=origin  # Default: origin
+# UPSTREAM_REMOTE_NAME=upstream  # Default: upstream
